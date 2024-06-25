@@ -6,6 +6,7 @@ def hang_man(error, word_list, temporary_list, chance, random_word, temporary_li
     Display the current hangman stage based on the number of errors and check if the player has won.
 
     Parameters:
+    
     - error: Number of incorrect guesses
     - word_list: The list of characters in the target word
     - temporary_list: The list of guessed characters (with underscores for unguessed letters)
